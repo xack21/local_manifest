@@ -1,3 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="lenk" fetch="https://github.com/dblenk-project" />
+
+<project path="device/xiaomi/sm6225-common" name="device_xiaomi_sm6225-common" remote="lenk" revision="lineage-20.0" />
+<project path="device/xiaomi/fog" name="device_xiaomi_fog" remote="lenk" revision="lineage-20.0" />
+<project path="vendor/xiaomi/fog" name="vendor_xiaomi_fog" remote="lenk" revision="lineage-20.0" />
+<project path="vendor/xiaomi/sm6225-common" name="vendor_xiaomi_sm6225-common" remote="lenk" revision="lineage-20.0" />
+</manifest>
