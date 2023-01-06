@@ -3,15 +3,15 @@
 <remote name="xack" fetch="https://github.com/xack21" />
 <remote name="clang" fetch="https://gitlab.com/Amritorock" />
 <remote name="mi-msm8937" fetch="https://github.com/mi-msm8937" />
-<remote name="Mi-Thorium" fetch="https://github.com/Mi-Thorium" />
+<remote name="mi-thorium" fetch="https://github.com/Mi-Thorium" />
 <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
 
 <project path="device/xiaomi/land" name="device_xiaomi_land-3" remote="xack" revision="12.1" />
 <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 <project path="kernel/xiaomi/msm8937" name="android_kernel_xiaomi_msm8937" remote="mi-msm8937" revision="a13/master" />
-<project path="device/xiaomi/land/camera" name="android_device_xiaomi_land-camera" remote="Mi-Thorium" revision="sairam/a13/master" />
-<project path="vendor/xiaomi/mithorium-common-4.19" name="proprietary_vendor_xiaomi_mithorium-common-4.19" remote="Mi-thorium" revision="a12/master" />
-<project path="vendor/xiaomi/Mi8937_4_19" name="proprietary_vendor_xiaomi_Mi8937" remote="Mi-thorium" revision="k4.19/a11/master" />
-<project path="vendor/xiaomi/Mi8937-2" name="proprietary_vendor_xiaomi_Mi8937-2" remote="Mi-thorium" revision="a11/master" />
+<project path="device/xiaomi/land/camera" name="android_device_xiaomi_land-camera" remote="mi-thorium" revision="sairam/a13/master" />
+<project path="vendor/xiaomi/mithorium-common-4.19" name="proprietary_vendor_xiaomi_mithorium-common-4.19" remote="mi-thorium" revision="a12/master" />
+<project path="vendor/xiaomi/Mi8937_4_19" name="proprietary_vendor_xiaomi_Mi8937" remote="mi-thorium" revision="k4.19/a11/master" />
+<project path="vendor/xiaomi/Mi8937-2" name="proprietary_vendor_xiaomi_Mi8937-2" remote="mi-thorium" revision="a11/master" />
 <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
  </manifest>
