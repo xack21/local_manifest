@@ -12,4 +12,6 @@
 <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 <project path="kernel/xiaomi/msm8937" name="android_kernel_xiaomi_msm8937" remote="mi-msm8937" revision="a13/master" />
 <project path="device/xiaomi/land/camera" name="android_device_xiaomi_land-camera" remote="Mi-Thorium" revision="sairam/a13/master" /> 
+<project path="device/xiaomi/msm8937-common" name="device_xiaomi_msm8937-common" remote="xack" revision="eleven" />
+<project path=vendor/xiaomi/msm8937-common name="vendor_xiaomi_msm8937-common" remote="xack" revision="eleven" />
 </manifest>
