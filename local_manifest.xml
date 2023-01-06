@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="lenk" fetch="https://github.com/dblenk-project" />
 <remote name="xack" fetch="https://github.com/xack21" />
 <remote name="clang" fetch="https://gitlab.com/Amritorock" />
+<remote name="mi-msm8937" fetch="https://github.com/mi-msm8937" />
 
-<project path="device/xiaomi/sm6225-common" name="device_xiaomi_sm6225-common" remote="lenk" revision="lineage-20" />
-<project path="device/xiaomi/fog" name="device_xiaomi_fog" remote="lenk" revision="lineage-20" />
-<project path="vendor/xiaomi/fog" name="vendor_xiaomi_fog" remote="lenk" revision="lineage-20" />
-<project path="vendor/xiaomi/sm6225-common" name="vendor_xiaomi_sm6225-common" remote="lenk" revision="lineage-20" />
+<project path="device/xiaomi/landtoni-common" name="android_device_xiaomi_landtoni-common" remote="xack" revision="lineage-19.1" />
+<project path="device/xiaomi/land" name="android_device_xiaomi_land" remote="xack" revision="lineage-19.1" />
+<project path="vendor/xiaomi/land" name="proprietary_vendor_xiaomi_land" remote="mi-msm8937" revision="lineage-18.1" />
+<project path="vendor/xiaomi/landtoni-common" name="proprietary_vendor_xiaomi_landtoni-common" remote="mi-msm8937" revision="lineage-18.1" />
 <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
-<project path="kernel/xiaomi/sm6225-common" name="kernel_xiaomi_sm6225-common_header" remote="lenk" revision="lineage-19.1" />
+<project path="kernel/xiaomi/msm8937" name="android_kernel_xiaomi_msm8937" remote="mi-msm8937" revision="a13/master" />
 </manifest>
